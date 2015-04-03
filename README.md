@@ -26,7 +26,7 @@ If the web service returns an incident, an LED attached to the Arduino will ligh
 <ul>
 <li>    Wire the Arduino based on this diagram</li>		
 <li>    Open Arduino IDE</li>
-<li>    Download this sketch..<a href="/sys_attachment.do?sys_id=a1e93d8c0fdf71003b353a7ce1050ed8"><font color="red"> HERE </font></a>..and paste in to the Arduino IDE</li>
+<li>    Download this sketch..<a href="https://github.com/chengdu28/ServiceNow-Arduino-Integration/blob/master/arduinosketch.ino"><font color="red"> HERE </font></a>..and paste in to the Arduino IDE</li>
 <li>    In the Arduino IDE, hit the Arrow icon (upper left, to the right of the check) to upload the script to the Arduino</li>
 </ul>
 </td>
@@ -39,7 +39,7 @@ If the web service returns an incident, an LED attached to the Arduino will ligh
 <h3>NODE.JS STEPS</h3>
 <ul>
 <li>    Open the NODE.JS IDE (if you chose sublime, open that)</li>
-<li>    Download the..<a href="/sys_attachment.do?sys_id=e9e97d8c0fdf71003b353a7ce1050e48"><font color="red"> arduino.js </font></a>..and..<a href="/sys_attachment.do?sys_id=29e93d8c0fdf71003b353a7ce1050ed8"><font color="red"> config.js </font></a>..files and save them in your users directory.</li>
+<li>    Download the..<a href="https://github.com/chengdu28/ServiceNow-Arduino-Integration/blob/master/arduino.js"><font color="red"> arduino.js </font></a>..and..<a href="https://github.com/chengdu28/ServiceNow-Arduino-Integration/blob/master/config.js"><font color="red"> config.js </font></a>..files and save them in your users directory.</li>
 <li>    Open config.js in the Node.JS IDE.</li>
 <li>    Update the instance URL with your instance name	</li>
 <li>    Update username and password with an Admin username and password.</li>
