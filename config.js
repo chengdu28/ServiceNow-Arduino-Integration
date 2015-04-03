@@ -1,7 +1,7 @@
 var config = {}
 
 // Instance Settings
-config.instance = '@empjobrayeureka.service-now.com/incident.do?WSDL';
+config.instance = 'empjobrayeureka.service-now.com';
 config.username =  'admin';
 config.password = 'admin'
 
@@ -15,7 +15,6 @@ config.search_priority = '1';
 config.search_state = '1';
 
 // Code Settings
-config.xmlDocPath = '/Users/josh.bray/node_modules/xmldoc/lib/xmldoc.js'
 config.serialport =  '/dev/tty.usbmodem1451';
 
 

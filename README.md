@@ -14,9 +14,7 @@ If the web service returns an incident, an LED attached to the Arduino will ligh
 <li>    Download and install your preferred Node.JS IDE (such as <a href="http://www.sublimetext.com/"><font color="red">http://www.sublimetext.com/</font></a>)</li>
 <li>    Install NODE modules.</li>
         <ol>    Open a command prompt/terminal</ol>
-        <ol>    Type this and hit enter: npm install soap</ol>
-        <ol>    Type this and hit enter: npm install xmldoc</ol>
-        <ol>    Type this and hit enter:  npm install serialport</ol>
+        <ol>    Type this and hit enter: npm install</ol>
 </ul>
 
 <h3>ARDUINO STEPS</h3>
@@ -43,7 +41,6 @@ If the web service returns an incident, an LED attached to the Arduino will ligh
 <li>    Open config.js in the Node.JS IDE.</li>
 <li>    Update the instance URL with your instance name	</li>
 <li>    Update username and password with an Admin username and password.</li>
-<li>    Find the location of the file xmldoc.js and paste the complete path for the xmlDocPath variable	</li>
 <li>     Update the serialport variable.  You will find this listed at the bottom right of the Arduino IDE window. It will say something like "Arduino Uno on /dev/tty.usbmodem1451" or  "Arduino Uno on COM4"	</li>
 <li>    Save the file.</li>
 </ul>
