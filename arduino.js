@@ -1,11 +1,11 @@
 var stuff = setInterval(function(){
 soap = require('soap');
 config = require('./config')
-var xmldoc = require(config.xmlDocPath); // set full path to the xmldoc.js 
+var xmldoc = require('xmldoc');
 //url = config.instance; // update this to the desired instance.
 var args = {priority: config.search_priority, state: config.search_state}; // update these variables to the desired priority and state (or what ever variables you would like to search)
 
-url = 'http://' + config.username + ':' + config.password + config.instance;
+url = 'http://' + config.username + ':' + config.password + '@' + config.instance + '/incident.do?WSDL';
                                                             
 soap.createClient(url, function(err, client) 
 {

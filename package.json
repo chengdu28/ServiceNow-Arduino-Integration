@@ -1,0 +1,28 @@
+{
+  "name": "ServiceNow-Arduino-Integration",
+  "version": "1.0.0",
+  "description": "This integration will connect an Arduino to a computer. An application on the computer will consume web service which will check ServiceNow for Critical (P1) incidents in a New status.",
+  "main": "arduino.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chengdu28/ServiceNow-Arduino-Integration.git"
+  },
+  "keywords": [
+    "ServiceNow",
+    "Arduino"
+  ],
+  "author": "Josh Bray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chengdu28/ServiceNow-Arduino-Integration/issues"
+  },
+  "homepage": "https://github.com/chengdu28/ServiceNow-Arduino-Integration",
+  "dependencies": {
+    "serialport": "^1.6.3",
+    "soap": "^0.8.0",
+    "xmldoc": "^0.3.0"
+  }
+}
