@@ -1,10 +1,12 @@
-nt redPin = 11;
+int redPin = 11;
 int greenPin = 10;
 int bluePin = 9;
 int pushed = 0;
 int sent = 0;
 int incomingByte = 0;
 int result = 0;
+
+const int button1Pin = 2;
  
 //uncomment this line if using a Common Anode LED
 //#define COMMON_ANODE
@@ -17,19 +19,29 @@ void setup()
   
   Serial.begin(9600);
   pinMode(2,INPUT);
-  setColor(255, 255, 255);
+
+  // test LED wiring
+  setColor(180, 0, 0);
+  delay(500);
+  setColor(0, 180, 0);
+  delay(500);
+  setColor(0, 0, 180);
+  delay(500);
+
+  // turn off
+  setColor(0, 0, 0);
 }
  
 void loop()
 {
-int sensorValue = analogRead(A0);
+ int sensorValue = digitalRead(button1Pin);
   
         if(Serial.available() > 0) {
           result = Serial.read();
           if (result != 65 && result != 66)
           {
             Serial.write(66);
-            setColor(0, 255, 255);
+            setColor(180, 0, 0);
             pushed = 0;
           }
         }  
@@ -38,10 +50,10 @@ if (sensorValue == 0 && pushed == 0)
 {
   pushed = 1;
   //turn the LED green
-  setColor(255, 0, 0);
+  setColor(0, 180, 180);
    Serial.write(65);
   delay(2000);
-  setColor(255, 255, 255);
+  setColor(0, 0, 0);
   sent = 1;
   
 }
