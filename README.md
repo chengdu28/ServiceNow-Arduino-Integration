@@ -11,7 +11,6 @@ If the web service returns an incident, an LED attached to the Arduino will ligh
 <ul>
 <li>    Download and install the Arduno IDE: <a href="http://arduino.cc/en/main/software"><font color="red">http://arduino.cc/en/main/software</font></a></li>
 <li>    Download and install Node.JS: <a href="https://nodejs.org/download/"><font color="red">https://nodejs.org/download/</font></a></li>
-<li>    Download and install your preferred Node.JS IDE (such as <a href="http://www.sublimetext.com/"><font color="red">http://www.sublimetext.com/</font></a>)</li>
 <li>    Install NODE modules.</li>
         <ol>    Open a command prompt/terminal</ol>
         <ol>    Type this and hit enter: npm install</ol>
