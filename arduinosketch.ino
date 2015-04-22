@@ -19,6 +19,16 @@ void setup()
   
   Serial.begin(9600);
   pinMode(2,INPUT);
+  
+  // test LED wiring
+  setColor(180, 0, 0);
+  delay(500);
+  setColor(0, 180, 0);
+  delay(500);
+  setColor(0, 0, 180);
+  delay(500);
+
+  // turn off
   setColor(0, 0, 0);
 }
  
