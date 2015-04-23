@@ -29,7 +29,7 @@ If the web service returns an incident, an LED attached to the Arduino will ligh
 </ul>
 </td>
 <td>
-<a href="https://cloud.githubusercontent.com/assets/11547510/7054056/ef2ec7b2-de07-11e4-9c73-b4c78a837b26.png" border="0"><img src="https://cloud.githubusercontent.com/assets/11547510/7054056/ef2ec7b2-de07-11e4-9c73-b4c78a837b26.png" width="200"/></a>
+<a href="https://cloud.githubusercontent.com/assets/11547510/7296411/713ad77e-e98d-11e4-9c61-5f08c9f3f4b5.png" border="0"><img src="https://cloud.githubusercontent.com/assets/11547510/7296411/713ad77e-e98d-11e4-9c61-5f08c9f3f4b5.png" width="200"/></a>
 </td>
 </tr>
 </table>
